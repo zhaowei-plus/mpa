@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>测试页面</title>
+</head>
+
+<body>
+    <div class="header navbar-fixed-top">
+        <%=require('html-loader!component/header/index.html')%>
+    </div>
+
+    <div class='box'>
+        <input id="username" />
+        <input id="passwrod" />
+        <button id="loginBtn">登录</button>
+    </div>
+
+
+    <div class="footer navbar-fixed-top">
+        <%=require('html-loader!component/footer/index.html')%>
+    </div>
+</body>
+
+</html>
